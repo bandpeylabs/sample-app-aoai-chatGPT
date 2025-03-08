@@ -14,23 +14,6 @@
   align-items: center;
 }
 
-.headerTitleContainer {
-  display: flex;
-  align-items: center;
-  margin-left: 14px;
-  text-decoration: none;
-}
-
-.headerTitle {
-  font-style: normal;
-  font-weight: 600;
-  font-size: 20px;
-  line-height: 28px;
-  display: flex;
-  align-items: flex-end;
-  color: #242424;
-}
-
 .headerIcon {
   height: 32px;
   width: auto;
@@ -101,10 +84,6 @@
 }
 
 @media (max-width: 480px) {
-  .headerTitleContainer {
-    margin-left: 4px;
-  }
-
   .headerIcon {
     margin-left: 26px;
   }
